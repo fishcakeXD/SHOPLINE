@@ -1,27 +1,40 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
-.headbox{
+.main{
+    position: relative;
+}
+.box{
+    background-color: antiquewhite;
+    position: sticky;
+    top: 0;
+}
+.headbox {
     width: 1350px;
     height: 100px;
     display: flex;
     margin: auto;
     align-items: center;
     color: rgb(175, 34, 34);
+    background-color: antiquewhite;
 }
-.text1{
+
+.text1 {
     width: 150px;
-    padding: 10px;   
+    padding: 10px;
 }
-.text1 img{
+
+.text1 img {
     width: auto;
 }
-.box1{
+
+.box1 {
     background-color: rgb(234, 248, 243);
 }
-.box1item{
-    width:1350px;
+
+.box1item {
+    width: 1350px;
     height: 500px;
     padding: 20px;
     display: flex;
@@ -30,44 +43,52 @@
     justify-content: center;
     align-items: center;
 }
-.box1text{
+
+.box1text {
     width: 700px;
 }
-.box1img{
+
+.box1img {
     width: auto;
     display: flex;
 }
-.box1 h1{
-    padding:5px;
+
+.box1 h1 {
+    padding: 5px;
 }
-.box1 h1 span{
+
+.box1 h1 span {
     color: blue;
 }
-.box1 p{
+
+.box1 p {
     width: 450px;
     padding: 5px;
-    
+
 }
-.box1 p:nth-child(2n-1){
+
+.box1 p:nth-child(2n-1) {
     width: 200px;
     text-align: center;
     background-color: blue;
     color: aliceblue;
 }
-.box1 p:nth-child(3n){
+
+.box1 p:nth-child(3n) {
     font-size: small;
 }
 
 
-.box2{
+.box2 {
     height: 300px;
     background-color: azure;
     flex-wrap: wrap;
     display: flex;
     align-items: center;
 }
-.box2text{
-    width:1350px;
+
+.box2text {
+    width: 1350px;
     padding: 20px;
     text-align: center;
     flex-wrap: wrap;
@@ -75,16 +96,19 @@
     justify-content: center;
     align-items: center;
 }
-.box2 p{
+
+.box2 p {
     padding: 20px;
 }
-.box3{
+
+.box3 {
     padding: 30px;
     flex-wrap: wrap;
     display: flex;
 }
-.box3item{
-    width:1350px;
+
+.box3item {
+    width: 1350px;
     height: 500px;
     padding: 20px;
     display: flex;
@@ -94,56 +118,69 @@
     align-items: center;
 
 }
-.box3item:nth-child(even){
+
+.box3item:nth-child(even) {
     flex-direction: row-reverse;
 }
-.box3text{
+
+.box3text {
     width: 700px;
     height: 400px;
     padding: 20px;
     box-sizing: border-box;
 }
-.box3text:nth-child(even){
+
+.box3text:nth-child(even) {
     flex-direction: row-reverse;
 }
-.box3 h1{
-    padding:5px;
+
+.box3 h1 {
+    padding: 5px;
 }
-.box3 h1:nth-child(2n){
+
+.box3 h1:nth-child(2n) {
     height: 50px;
 }
-.box3 p:nth-child(2n-1){
+
+.box3 p:nth-child(2n-1) {
     width: 500px;
     height: 75px;
     padding: 5px;
 }
-.box3img{
+
+.box3img {
     width: auto;
     padding: 20px;
 }
-.box3 ul{
+
+.box3 ul {
     width: 700px;
     height: 50px;
     display: flex;
     flex-wrap: wrap;
-    
+
 }
-.box3 li{
+
+.box3 li {
     width: 340px;
     height: 25px;
     padding: 5px;
 }
-.box4{
+
+.box4 {
     background-color: azure;
     flex-wrap: wrap;
     display: flex;
     align-items: center;
 }
-.box4 h1{
+
+.box4 h1 {
+    font-size: 25px;
     padding: 50px;
 }
-.inbox4{
-    width:1350px;
+
+.inbox4 {
+    width: 1350px;
     height: 900px;
     display: flex;
     flex-wrap: wrap;
@@ -151,7 +188,8 @@
     justify-content: center;
     align-items: center;
 }
-.box4item{
+
+.box4item {
     width: 1350px;
     height: 700px;
     display: flex;
@@ -159,61 +197,184 @@
     justify-content: center;
     align-items: center;
 }
-.inbox4item
-{
+
+.inbox4item {
     width: 400px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
-.box4text{
+
+.box4text {
     text-align: center;
     padding: 10px;
 }
-.box4img{
+
+.box4img {
     width: auto;
 }
 
-.inbox5{
-    width:1350px;
+.inbox5 {
+    width: 1350px;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
     justify-content: center;
     align-items: center;
-    border: solid red 5px;
 }
-.box5item{
+
+.box5item {
     width: 1350px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    border: solid rgb(129, 237, 13) 5px;
 }
-.inbox5item
-{
+
+.inbox5item {
     width: 1350px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    border: solid rgb(1, 80, 251) 5px;
 }
-.inbox5item img{
+
+.inbox5item img {
     padding: 50px;
 }
-.box5text{
+
+.box5text {
     width: 500px;
     padding: 20px;
     text-align: center;
-    border: solid rgb(164, 29, 153) 5px;
 }
-.box5 p:nth-child(3n-2){
+
+.box5 p:nth-child(3n-2) {
     width: 500px;
     height: 75px;
     padding: 5px;
 }
 
+.box6 {
+    height: 300px;
+    background-color: azure;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+}
 
+.box6text {
+    width: 1350px;
+    padding: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.box6 p {
+    padding: 20px;
+}
+
+.box6 p {
+    width: 200px;
+    text-align: center;
+    background-color: blue;
+    color: aliceblue;
+    margin: auto;
+}
+.box7{
+    background-color: rgb(47, 47, 158);
+}
+.footer {
+    width: 1350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.footerbox1 {
+    width: 1350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.footerbox1 p {
+    padding: 30px;
+    color: aliceblue;
+}
+
+.footerbox2 {
+    width: 1350px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    color: aliceblue;
+    border-top: solid white 2px;
+    border-bottom: solid white 2px;
+}
+
+.footeritem {
+    width: 200px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+.footeritem p{
+    padding: 5px;
+    margin: 15px;
+}
+.footerbox2 p#down{
+    position: absolute;
+    padding: 10px;
+    margin-bottom: 20px;
+    bottom: 0;
+    right: 0;
+    color: #230bd8;
+    background-color: darkorange;
+}
+.footerbox3 {
+    width: 1350px;
+    margin: 20px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    color: aliceblue;
+}
+.footerbox3text{
+    width: 700px;
+    padding: 10px;
+    margin: 10px;
+}
+.footerbox3imgs{
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    margin: 10px; 
+}
+.footerbox3img{
+    margin: 10px;
+}
+.footerbox4{
+    width: 1350px;
+    display:flex;
+    margin: 10px;
+    color: #fdf9f9;
+}
+.footerbox4 p{
+    display:flex;
+    margin: 10px;
+    padding: 10px;
+}
+.footerbox4 p:nth-child(n+2){
+    border-left:solid #fdf9f9 2px;
+}
